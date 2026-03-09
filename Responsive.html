@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<link rel="stylesheet" href="Responsible.css">
+</head>
+<body>
+
+<nav>
+<a href="#" class="logo">MySite 🌐</a>
+
+<ul>
+<li><a href="#hero">Home</a></li>
+<li><a href="#features">Features</a></li>
+</ul>
+
+<button class="hamburger" onclick="toggleMenu()">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+<a href="#hero" onclick="closeMenu()">Home</a>
+<a href="#features" onclick="closeMenu()">Features</a>
+</div>
+
+<section id="hero">
+<h1>Welcome to MySite</h1>
+<a href="#features">See Features</a>
+</section>
+
+
+<section id="features">
+<h2>Our Features</h2>
+
+<div class="features-grid">
+
+<div class="feature-box">
+<div class="icon">⚡</div>
+<h3>Fast</h3>
+<p>Our website loads quickly on all devices.</p>
+</div>
+
+<div class="feature-box">
+<div class="icon">📱</div>
+<h3>Responsive</h3>
+<p>Looks great on mobile, tablet, and desktop.</p>
+</div>
+
+<div class="feature-box">
+<div class="icon">🎨</div>
+<h3>Easy to Use</h3>
+<p>Clean and simple design anyone can understand.</p>
+</div>
+
+</div>
+</section>
+
+<footer id="footer">
+<p>2026 MySite.</p>
+</footer>
+<script src="Responsible.js"></script>
+
+</body>
+</html>
